@@ -6,7 +6,7 @@ export const ContentWrapper = styled.main`
   background-color: ${props => props.theme.colors.light2};
   padding: ${props =>
     `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
-  box-shadow: ${props.theme.shadows.shadow1};
+  box-shadow: ${props => props.theme.shadows.shadow1};
   z-index: 10;
 
   @media ${props => props.theme.breakpoints.tablet} {

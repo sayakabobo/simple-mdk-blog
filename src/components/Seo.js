@@ -31,7 +31,7 @@ export const Seo = ({ description, keywords, title, image, url, author }) => {
                 content: metaDescription,
               },
               {
-                name: `og:tyle`,
+                name: `og:type`,
                 content: `website`,
               },
               {

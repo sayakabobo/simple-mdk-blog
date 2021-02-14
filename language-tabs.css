@@ -44,3 +44,15 @@
   background: #ff0055;
   color: white;
 }
+
+.gatsby-highlight pre[class~="language-php"]::before {
+  content: "php";
+  background: #00ffdd;
+  color: black;
+}
+
+.gatsby-highlight pre[class~="language-python"]::before {
+  content: "python";
+  background: #91ff00;
+  color: black;
+}

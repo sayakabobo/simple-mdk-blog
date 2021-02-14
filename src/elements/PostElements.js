@@ -29,7 +29,7 @@ export const PostWrapper = styled.main`
   h1 {
     font-size: 2.25rem;
     line-height: 2.5rem;
-    font-weight: 400;
+    font-weight: 700;
   }
   h2 {
     font-size: 1.5rem;
@@ -44,7 +44,7 @@ export const PostWrapper = styled.main`
   h4 {
     font-size: 1.25rem;
     line-height: 1.5rem;
-    font-weight: 400;
+    font-weight: 700;
   }
   h5 {
     font-size: 1.25rem;
